@@ -1,4 +1,4 @@
-## Data System Project: Fire Risk Profiles
+# Data System Project: Fire Risk Profiles
 
 ### Image Recognition on Floor Plans as Input for a Fire Risk Model
 
