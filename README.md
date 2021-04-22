@@ -1,11 +1,11 @@
-## DSP: Fire Risk Profiles
-
-#### Group E4
+## Data System Project: Fire Risk Profiles
 
 ### Image Recognition on Floor Plans as Input for a Fire Risk Model
 
-Model code in floor_plan_model folder. Folder contains README
+The project is in collaboration with Gemeente Amsterdam.
 
-Application code in API folder. Folder contains README
+- Model code in *floor_plan_model* folder. 
 
-Minified JavaScript in front_end folder.
+- Application code in *API* folder. 
+
+- Minified JavaScript in *front_end* folder.
