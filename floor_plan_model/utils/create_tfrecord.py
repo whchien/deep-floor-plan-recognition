@@ -3,7 +3,7 @@ Please prepare the raw image datas save to one folder,
 makesure the path is match to the train_file/test_file.
 """
 
-from utils.tf_record import *
+from tf_record import *
 
 train_file = '/d2/studies/TF2DeepFloorplan/dataset/r3d_train.txt'
 test_file = '/d2/studies/TF2DeepFloorplan/dataset/r3d_test.txt'

@@ -1,5 +1,5 @@
 import os
-
+from dataclasses import dataclass
 from django.db import models
 import pandas as pd
 
@@ -8,6 +8,7 @@ class RawImageModel(models.Model):
     floor_plan = models.ImageField()
 
 
+@dataclass
 class FloorPlanCompartments:
     closets = 0
     bathrooms = 0
