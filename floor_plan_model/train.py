@@ -35,8 +35,8 @@ def init(config):
     optim : Keras optimizer.
 
     """
-    model = deepfloorplanModel()
-    dataset = loadDataset(train=config['train'])
+    model = DeepFloorplanModel()
+    dataset = load_dataset(train=config['train'])
     optim = tf.keras.optimizers.Adam(learning_rate=config['lr'])
     return dataset,model,optim
 
@@ -147,7 +147,7 @@ def main(config):
         epTotalLoss=[]
         for data in list(dataset.shuffle(400).batch(config['batchsize'])):
             # forward
-            img,bound,room = decodeAllRaw(data)
+            img,bound,room = decode_all_raw(data)
             img,bound,room,hb,hr = preprocess(img,bound,room)
             with tf.GradientTape() as tape:
                 if config['train']==True:
