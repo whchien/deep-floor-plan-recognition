@@ -9,9 +9,3 @@ The project is in collaboration with Gemeente Amsterdam.
 - Application code in *API* folder. 
 
 - Minified JavaScript in *front_end* folder.
-
-To run this project, run
-'''
-pip install -r requirements.txt
-python main.py
-'''
