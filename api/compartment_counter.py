@@ -1,6 +1,6 @@
 from skimage import measure
 
-from API.models import FloorPlanCompartments
+from api.models import FloorPlanCompartments
 
 
 def get_compartment_count(processed_image, compartment_type, compartment_area):

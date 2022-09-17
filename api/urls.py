@@ -1,6 +1,6 @@
 from django.urls import path
 
-from API.views import ImageUploadView, ResultsView, CsvView, IndexView
+from api.views import ImageUploadView, ResultsView, CsvView, IndexView
 
 urlpatterns = [
     # Homepage

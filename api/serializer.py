@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from API.models import RawImageModel
+from api.models import RawImageModel
 
 
 class RawImageSerializer(serializers.ModelSerializer):

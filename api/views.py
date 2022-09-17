@@ -8,11 +8,11 @@ from django.http import HttpResponse, JsonResponse
 from django.views.generic import TemplateView
 from rest_framework import generics
 
-from API.compartment_counter import get_floor_plan_compartments
-from API.model_prediction_post_processing import process_img
-from API.models import FloorPlansCsvData
-from API.serializer import RawImageSerializer
-from API.system_state import floor_plan_in_mem_db, model, tmp_folder_path
+from api.compartment_counter import get_floor_plan_compartments
+from api.model_prediction_post_processing import process_img
+from api.models import FloorPlansCsvData
+from api.serializer import RawImageSerializer
+from api.system_state import floor_plan_in_mem_db, model, tmp_folder_path
 
 
 class ImageUploadView(generics.ListAPIView):

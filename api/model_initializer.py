@@ -1,6 +1,6 @@
 import os
 
-from floor_plan_model.net import *
+from deepfloor.net import *
 
 os.environ['KMP_DUPLICATE_LIB_OK'] = 'True'
 

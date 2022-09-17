@@ -1,9 +1,9 @@
 import imageio
 from skimage.transform import resize
 
-from floor_plan_model.utils.util import *
-from floor_plan_model.data import *
-from floor_plan_model.net import *
+from deepfloor.utils.util import *
+from deepfloor.data import *
+from deepfloor.net import *
 
 # invert the color of wall line and background for presentation
 room_function_color_codes = {

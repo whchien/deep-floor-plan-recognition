@@ -1,5 +1,5 @@
-from API.in_mem_floor_plans import InMemFloorPlans
-from API.model_initializer import init_model
+from api.in_mem_floor_plans import InMemFloorPlans
+from api.model_initializer import init_model
 
 # Model to predict compartments, room functions and boundaries
 path_weights = 'floor_plan_model/model/G'
