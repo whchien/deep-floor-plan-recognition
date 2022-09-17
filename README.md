@@ -1,8 +1,9 @@
 # DeepFloor: Floor Plan Recognition 
 
-In collaboration with Gemeente Amsterdam, this project aims to extract structured features from floor plan images as inputs for a Fire Risk Model. 
+In collaboration with Gemeente Amsterdam in 2020, 
+this project aims to extract structured features from floor plan images as inputs for their fire risk model. 
 This core image recognition model was originated from [DeepFloorplan](https://github.com/zlzeng/DeepFloorplan). 
-We incorporated this model with a Django website for demo purpose. 
+We incorporated the model backbone and built a Django website for demo purpose. 
 
 
 ## How to run the demo?
